@@ -1,0 +1,116 @@
+
+	body
+{
+    background-color:white;
+    font-family: sans-serif ;
+    font-weight: bold ;
+    font-style: !important ;
+    text-decoration: none ;
+	background-image: url(file:///e:/project/WebDev/51984873_2343113035732736_8013201160812888064_o.jpg) ;
+}
+h1{
+    color: pink;
+    background-color:black:
+}
+h2
+{
+    color: cyan;
+    background-color:blue ;
+}
+
+#header 
+{
+	
+	color: black ;
+	text-align: center ;
+	display: flex ;
+	
+}
+#header #h-title 
+{
+	width: 100% ;
+	color: black ;
+	display: inline ;
+}
+#header #h-title h1
+{ color: black ; }
+.left-pane
+{
+    float: left ;
+    margin: auto ;
+    width: 20% ;
+	height: 35em ;
+}
+.border1
+{
+	border-color: black ;
+	border-width: 12px ;
+	border-style: ridge ;
+}
+#scales
+{
+	margin-left=22% ;
+	min-height: 35em ;
+}
+#html-tags
+{
+    background-color: white ;
+    margin-left: 22% ;
+   
+	background-image: url(file:///e:/project/WebDev/51984873_2343113035732736_8013201160812888064_o.jpg) ;
+	height: 35em ;
+	overflow: auto ;
+	text-align: left ;
+}
+#menu
+{
+	float: left ;
+	width: 20% ;
+}
+#menu ul 
+{
+	
+	list-style: none ;
+	display: inline ;
+	
+}
+#menu li ul
+{
+	display: none ;
+}
+#menu li:hover ul
+{
+	display: block ;
+}
+#menu a
+{
+	text-decoration: none ;
+	color: red ;
+	display: block ;
+}
+#menu a:hover, #menu li:hover
+{
+	box-shadow 3px 3px 3px gray ;
+	background-color: black;
+	color: cyan ;
+	border: none ;
+}
+#menu li 
+{
+	color: red ;
+	left-margin: -2.5em ;
+	box-shadow: 5px 5px 5px ;
+	width: 6em ;
+	border: double ;
+	border-color: black ;
+	bottom-margin: 5em ;
+	text-align: center ;
+}
+
+#footer
+{
+    background-color: black ;
+	background-image: url(file:///e:/project/WebDev/51984873_2343113035732736_8013201160812888064_o.jpg) ;
+}
+#canvasHtml5{border:5px solid red; }    
+#canvasJavascript{border:5px solid blue; }

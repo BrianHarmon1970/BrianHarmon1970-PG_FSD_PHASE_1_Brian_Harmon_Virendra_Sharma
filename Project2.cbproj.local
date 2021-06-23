@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/07/30 08:55:19.000.607,=E:\Project\Project2PCH1.h</Transaction>
+    <Transaction>2019/07/30 08:55:19.000.627,=E:\Project\Unit1.cpp</Transaction>
+    <Transaction>2019/07/30 11:56:59.000.866,E:\Project\Project2.cbproj=E:\Project\Project2.cbproj</Transaction>
+    <Transaction>2019/07/30 14:04:54.000.316,=E:\Project\File1.h</Transaction>
+    <Transaction>2019/07/30 14:05:41.000.488,E:\Project\File1.h=E:\Project\SoundAPI.h</Transaction>
+    <Transaction>2019/07/30 14:05:51.000.912,=E:\Project\File1.cpp</Transaction>
+    <Transaction>2019/07/30 14:06:04.000.371,E:\Project\File1.cpp=E:\Project\SoundAPI.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

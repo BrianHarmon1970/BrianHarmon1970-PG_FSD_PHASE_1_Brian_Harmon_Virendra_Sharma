@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\drawable_photogrid_list_selector.xml.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\drawable\\photogrid_list_selector.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\layout_image_detail_fragment.xml.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\layout\\image_detail_fragment.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\layout_image_grid_activity.xml.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\layout\\image_grid_activity.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_empty_photo.png.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\drawable-nodpi\\empty_photo.png"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\layout_image_grid_fragment.xml.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\layout\\image_grid_fragment.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tile.9.png.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\layout_image_detail_activity.xml.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\layout\\image_detail_activity.xml"
+    },
+    {
+        "merged": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\AndroidStudioProjects\\DisplayingBitmaps\\Application\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

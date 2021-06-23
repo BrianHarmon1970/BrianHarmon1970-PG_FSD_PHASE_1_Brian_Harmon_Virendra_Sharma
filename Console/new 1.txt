@@ -1,0 +1,15 @@
+bridge 90
+keys 50
+wiring 30
+wood + kit 80????
+pickups 40
+paint 20 ????????
+
+????
+
+????
+A023773940
+47234 text 
+
+
+early exposure to programming and computer science in grade school. several years of hobby and self taught programming in C Assembly and C++ on PC platforms in the 90s and 7 years experience in technical customer service, Data center operations, Software Quality Assurance and Software development in C++ and Oracle OCI/SQL. Have also taken some challenges in Java, Javascript, and Python.
