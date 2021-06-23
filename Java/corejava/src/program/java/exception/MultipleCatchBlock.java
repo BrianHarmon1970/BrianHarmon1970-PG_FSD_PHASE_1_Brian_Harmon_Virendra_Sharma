@@ -2,27 +2,28 @@ package program.java.exception;
 
 public class MultipleCatchBlock {
 	public static void main( String[] args )
+	{
 	
 		try {
 			int a[]= new int[5] ;
-			a[5]=30/0 ;
+			//a[5]=30/0 ;
 			a[6] = 9 ;
 		}
 		catch( ArithmeticException e )
 		{
-			System.out.printlin("Arithmetic Exception occurs") ;
+			System.out.println("Arithmetic Exception occurs") ;
 		}
 			
-		catch(ArrayIndexoutOf BoundException e ) 
+		catch(ArrayIndexOutOfBoundsException e ) 
 		{
-			Seystem..out.println("ArrayIndexOutofBounds Exception occurs") ;
+			System.out.println("ArrayIndexOutofBounds Exception occurs") ;
 		}
 		catch(Exception e)
 		{
-			System.outprintlin("parent Exception occurs") ;
+			System.out.println("parent Exception occurs") ;
 		}
 		finally {
-			system.out.println("rest of the code") ;
+			System.out.println("rest of the code") ;
 		}
 			
 	}

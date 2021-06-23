@@ -1,6 +1,12 @@
 package program.java.exception;
 import java.util.Scanner;
-
+/*
+Assignment 1: (Custom Exception)
+You need to check the salary of the person and based on that need to return the output from the program.
+if salary < 2000  then return custom exception message as "you need to work hard"
+if salary is between 2000 and 5000 then return custom exception message as "you salary is somehow good"
+if salary is between 5100 and 9000 then return custom exception message as "salary is very good"
+Desogn the custom exception class in this*/
 class SalaryException extends Exception
 {
 	SalaryException( String msg ) 
@@ -35,15 +41,7 @@ public class CustomException {
 		{
 			System.out.println( e.getMessage()) ;
 		}
-		
 	}
 
 }
 		
-/*
-Assignment 1: (Custom Exception)
-You need to check the salary of the person and based on that need to return the output from the program.
-if salary < 2000  then return custom exception message as "you need to work hard"
-if salary is between 2000 and 5000 then return custom exception message as "you salary is somehow good"
-if salary is between 5100 and 9000 then return custom exception message as "salary is very good"
-Desogn the custom exception class in this*/

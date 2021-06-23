@@ -1,5 +1,5 @@
 package program.java.strings;
-import java.util.stringbuilder ;
+import java.lang.StringBuilder;
 public class StringBufferExample {
 
 	public static void main( String args[] ) 

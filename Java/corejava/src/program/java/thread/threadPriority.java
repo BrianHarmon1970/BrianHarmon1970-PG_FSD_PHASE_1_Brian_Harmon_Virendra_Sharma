@@ -1,49 +1,9 @@
 package program.java.thread;
-import java.lang.thread ;
-import java.util ;
-import java.lang.Line ;
-synchronized public void getLine()
-{
-	for ( int = 0 ; i < 3 ; i++ )
-	{
-			System.out.println( Thread.currentThread.getName()+ " : "+i) ;")
-	}
-}
-class Train extends Thread
-{
-	//reference to lines object
-	Line line ;
-	Train(Line line ) 
-	{
-		this.line = line ;
-	}
-	
-	@override
-	public void run()
-	{
-		line.getLine() j;
-	}
-}
+import java.lang.*;
+import java.util.* ;
 
-public class SynchronizedMethod
-{
-	public stqatic void main( String[] args )
-	{
-		//object of line class that is shared among threads 
-		Line obj = new LIne() ;
-		
-		// creating theads that are sharing
-		Train train1 = new Train(obj) ;
-		Train train2 = new Train(obj) ;
-		
-		train1.setName("Train 1") );
-		train2.setName("Train 2") );
-		
-		//thread start their esecution.
-		tarin2.start() ;
-		train1.start();
-	}
-}
+
+
 class javaThread extends Thread{
 	javaThread( String name )
 	{
@@ -53,7 +13,15 @@ class javaThread extends Thread{
 	{
 		System.out.println( "Name " + this.getName() ) ;
 		System.out.println( "Priority " + this.getPriority() ) ;
-
+		
+		 
+	   System.out.println("running thread name is:"+Thread.currentThread().getName());  
+	   System.out.println("running thread priority is:"+Thread.currentThread().getPriority());  
+	   System.out.println("running thread state is:"+ Thread.currentThread().getState());
+	   System.out.println("The thread group is:"+Thread.currentThread().getThreadGroup());
+	   System.out.println("The thread id is:"+Thread.currentThread().getId());
+	   System.out.println("Is my thread alive or not? :  "+Thread.currentThread().isAlive());
+	   System.out.println("Is my thread Daemon or not? :  "+Thread.currentThread().isDaemon());
 	}
 }
 /*
@@ -82,11 +50,10 @@ public class threadPriority {
 		javaThread t3 = new javaThread("Thread_3") ;
 		javaThread t4 = new javaThread("Thread_4" ) ;
 		
-		t1.setPriority( newPriority()) ;
-		t1.setPriority(  MIN_PRIORITY ) ;
-		t2.setPriority( MIN_PRIORITY ) ;
-		t3.setPriority( NORMAL_PRIORITY ) ;
-		t4.setPriority( MAX_PRIORITY ) ;
+		t1.setPriority( Thread.NORM_PRIORITY) ;
+		t2.setPriority( Thread.MIN_PRIORITY ) ;
+		t3.setPriority( Thread.NORM_PRIORITY ) ;
+		t4.setPriority( Thread.MAX_PRIORITY ) ;
 		
 		t2.setDaemon(true); 
 		

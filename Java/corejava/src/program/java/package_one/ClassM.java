@@ -1,4 +1,4 @@
-package program2.java.package_one;
+package program.java.package_one;
 
 public class ClassM 
 {

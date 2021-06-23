@@ -20,8 +20,8 @@ public class ThreadPriority extends Thread{
 	  m1.setName("Abc");
 	  m2.setName("XYZ");
 	 
-	  m1.setPriority(Thread.MIN_PRIORITY);  
-	  m2.setPriority(Thread.MAX_PRIORITY);  
+	  m1.setPriority(MIN_PRIORITY);  
+	  m2.setPriority(MAX_PRIORITY);  
 	  
 	  m1.start();  
 	  m2.start();  

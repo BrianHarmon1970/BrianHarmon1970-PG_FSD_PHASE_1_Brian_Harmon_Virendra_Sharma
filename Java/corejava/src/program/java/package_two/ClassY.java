@@ -1,7 +1,7 @@
-package program2.java.package_two;
-import program2.java.package_one.ClassM;
-import	program2.java.package_one.ClassN;
-import program2.java.package_two.ClassX;
+package program.java.package_two;
+import program.java.package_one.ClassM;
+import	program.java.package_one.ClassN;
+import program.java.package_two.ClassX;
 
 public class ClassY extends ClassN
 {

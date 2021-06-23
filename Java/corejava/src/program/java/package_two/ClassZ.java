@@ -1,6 +1,6 @@
-package program2.java.package_two;
-import	program2.java.package_one.ClassM;
-import program2.java.package_one.ClassN;
+package program.java.package_two;
+import	program.java.package_one.ClassM;
+import program.java.package_one.ClassN;
 
 public class ClassZ extends ClassM 
 {
