@@ -2,7 +2,7 @@ package locker.lockedme.com;
 import java.util.ArrayList ;
 import java.io.File; 
 import java.util.Scanner ;
-
+import java.util.InputMismatchException ; 
 
 abstract class UI_ActionElement
 {
@@ -25,9 +25,28 @@ abstract class UI_ActionElement
 class UI_Input
 {
 	Scanner scanner = new Scanner( System.in ) ;
+	String input_prompt  ;
 	int promptInteger( String prompt )  
 	{ 
-		System.out.print( prompt ) ; return scanner.nextInt()  ;
+		int return_value = 0 ;
+		input_prompt = prompt ;
+		System.out.print( input_prompt ) ;
+		do	
+		{		
+			return_value =  getInt() ;
+		} while ( !(return_value >=  0) ) ;
+		return return_value ;
+	}
+	int getInt() 
+	{
+		int return_value = 0 ;
+		try { return_value = scanner.nextInt(); }
+		catch( InputMismatchException e ) { 
+			return_value = -1 ;
+			scanner = new Scanner( System.in ) ;
+			System.out.print( input_prompt ); 
+		}
+		return return_value ;
 	}
 	String promptString( String prompt )
 	{
@@ -40,7 +59,6 @@ class UI_Screen extends UI_ActionElement
 	String ScreenHeader ;
 	String SubHead ;
 	ArrayList<UI_ActionElement> ElementList ;
-	UI_ActionElement subAction ;
 	UI_Input user_input ;
 	UI_Screen parentScreen = null ;
 	
@@ -83,10 +101,6 @@ class UI_Screen extends UI_ActionElement
 	{
 		return ElementList.get( itemNumber-1 ).Action() ;
 	}
-	void setSubAction( UI_ActionElement e )
-	{
-		subAction = e ;
-	}
 	boolean Action()
 	{
 		
@@ -97,12 +111,16 @@ class UI_Screen extends UI_ActionElement
 	void start( UI_Input uin ) 
 	{
 		user_input = uin ;
+		int ndx = 0 ;
 		Display() ; 
-		while ( SelectItem( uin.promptInteger( "Selection>"))) ;
+		do	{
+			do { 
+					ndx = uin.promptInteger("Selection>") ;
+				} while ( ndx > ElementList.size() || ndx < 1 )  ;
+			}	while ( SelectItem(  ndx ))  ;
 	}
-	
-	
 }
+
 class ActionFindFile extends UI_ActionElement
 {
 	ActionFindFile( String description ) 
@@ -116,6 +134,7 @@ class ActionFindFile extends UI_ActionElement
 		fileDirectory dirList ;
 		dirList = new fileDirectory() ;
 		dirList.LoadDirectoryList();
+		dirList.setCaseSensitive();
 		String searchName = uin.promptString( "Name> " ) ;
 		
 		if ( dirList.findFile(searchName)) 
@@ -139,6 +158,7 @@ class ActionDeleteFile extends UI_ActionElement
 		fileDirectory dirList ;
 		dirList = new fileDirectory() ;
 		dirList.LoadDirectoryList();
+		dirList.setCaseSensitive();
 		String searchName = uin.promptString( "Name> " ) ;
 		
 		if ( dirList.findFile(searchName))
@@ -216,16 +236,14 @@ public class UserInterface
 											"Brian Harmon",	
 											"Business Ops");
 		UI_Input uin = new UI_Input() ;
-		
-		//fileDirectory fd = new fileDirectory() ;
-		
+
 		submenu.user_input = uin ;
 		submenu.addActionItem( new ActionNewFile("Create File"));
 		submenu.addActionItem( new ActionDeleteFile("Delete File"));
+		submenu.addActionItem( new ActionFindFile("Find file")) ;
 		submenu.addActionItem( new ActionExit("Return to Main" )) ;
 		
 		welcome.addActionItem( new ActionDirectoryList("Directory List" ));
-		welcome.addActionItem( new ActionFindFile("Find file")) ;
 		welcome.addActionItem( submenu );
 		welcome.addActionItem( new ActionExit("Exit " ));
 		

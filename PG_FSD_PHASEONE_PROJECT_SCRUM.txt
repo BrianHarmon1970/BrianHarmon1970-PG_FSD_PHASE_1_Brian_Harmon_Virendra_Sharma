@@ -12,60 +12,15 @@ goal of digitization of all of the companies products. The product will represen
 in the process of digitization of the companies products. LockedMe.com, the product, shall be implemented as a prototype
 for the stated purposes.
 
-
-Prdouct Backlog:
-Requirements/Work Items
-User stories:
-
-Project Planning:
-Sprints
-Increments
-
-Definition of done:
-Sprint Planning:
-Sprint Backlogs:
-
-Daily Scrums:
-Sprint Reviews:
-Sprint Retrospectives:
-
-
-Product Backlog:
-Specifications document
-Project Plan - number and duration of required sprints, etc.
+	==============================================
+	Product backlog and prioritization
+	==============================================
+	Specifications document
+	Project Plan - number and duration of required sprints, etc.
 	15 days - at least 3 sprints 
-Github Link to project source code
-document describing Java concepts used in the project including data structures for sorting and searching
+	Github Link to project source code
+	document describing Java concepts used in the project including data structures for sorting and searching
 
-Features and operations to be implemented in 3 operarations. - working code to:
-	Retrieve file names in an ascending order
-	Business operations:
-		Option to add user specified file to the application	
-			you can ingnore the case of the filename on input
-		Option to delete user spcified file from teh application
-			case should be sensitive to ensure that the correct file is selected for deletion
-			return a message if file not found
-		Option to search for a file in the directory  list application
-			case should be sensitive to ensure the correct file is selected 
-			if successfully located resulst should be displayed
-			display message if the operation was not successfull 
-			
-		Navigation option to close the current execution level
-	Option to clsoe the application
-	
-flowchart - flow documentation
-list of core concepts and algorithms used to implement the project
-welcome screen - should display 
-	Application name and developer details
-	details concerning the user interface and interactions
-	features to accept user input to select the available options
-The application should not produce any exceptions on user input
-	Error validation and correction should be implemented in the user interface components
-		
-	==============================================
-	Product backlog refinement and prioritization
-	==============================================
-	
 User Stories:
 	As product owner i would like to see the application opern with a welcome screen, displaying:
 	the Application name ( LockedMe.com ) and developer details.
@@ -165,7 +120,3 @@ Design driven requirements:
 	feature - remove file from directory
 	verify, validate, and complete robustness of the application including all error conditions
 	and considerations.
-	
-	
-
-

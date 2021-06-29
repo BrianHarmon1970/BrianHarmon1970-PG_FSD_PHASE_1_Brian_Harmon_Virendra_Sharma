@@ -1,2 +1,3 @@
-module locker.lockedme_com {
+module locker.lockedme.com {
+	exports locker.lockedme.com;
 }
